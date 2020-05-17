@@ -20,7 +20,7 @@
       "website": "http://clavister.com",
       "startDate": "2018-05-02",
       "present": "present",
-      "summary": "Primarily focused on the frontend developing enterprise network security management system for worldwide customers. Implement new features, scoping requirements, design collaboration with the UX and marketing teams. Scrum master working under the agile methodology. ",
+      "summary": "Primarily focused on the frontend developing enterprise network security management system for worldwide customers. Implement new features, scoping requirements, design collaboration with the UX and marketing teams. Scrum master driving development from scoping through to implementation. Accomplishments include: Introducing React Hooks to the codebase and initiating refactoring of class components. Instigating accessibility focus Implementing the company's current rollout feature – Cyber Security Scorecard with custom dashboards. ",
       "stack": [
         "React",
         "TypeScript",
@@ -87,6 +87,19 @@
     ]
   }],
   "projects": [{
+      "name": "serverless-graphql-potter",
+      "summary": "A project created with in tandem with a tutorial for FaunaDB. Uses data from Harry Potter API, stored in FaunaDB, accessed via serverless functions and Apollo",
+      "stack": [
+        "React",
+        "Gatsby",
+        "Netlify Functions",
+        "Apollo"
+      ],
+      "github": "https://github.com/molebox/serverless-graphql-potter",
+      "npm": "",
+      "live": "https://serverless-graphql-potter.netlify.app/"
+    },
+    {
       "name": "richardhaines.dev",
       "summary": "My personal portfolio website. I wanted to keep the styling minimal with a focus on using easy navigation to display my projects, resume and blog. All data is kept on the local filesystem.",
       "stack": [
@@ -126,18 +139,6 @@
       "github": "https://github.com/molebox/gatsby-theme-pocket",
       "npm": "https://www.npmjs.com/package/gatsby-theme-pocket",
       "live": "https://gatsby-theme-pocket-example.netlify.com/articleIndex/"
-    },
-    {
-      "name": "gatsby-theme-testimonials",
-      "summary": "This is Gatsby theme to add customer testimonials to your website. The testimonial cards are exported as a section to just insert into your JSX. You add the data to be displayed via json files located in a testimonials folder at your projects root.",
-      "stack": [
-        "React",
-        "Gatsby",
-        "Theme-ui",
-        "Emotion"
-      ],
-      "github": "https://github.com/molebox/gatsby-theme-testimonials",
-      "npm": "https://www.npmjs.com/package/gatsby-theme-testimonials"
     },
     {
       "name": "gatsby-theme-vulcan",
@@ -206,7 +207,8 @@
     {
       "name": "Database and ORM",
       "keywords": [
-        "SQL Server"
+        "SQL Server",
+        "FaunaDB"
       ]
     },
     {
