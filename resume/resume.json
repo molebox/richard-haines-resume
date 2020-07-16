@@ -3,9 +3,9 @@
     "name": "Richard Haines",
     "label": "Software Developer",
     "picture": "",
-    "email": "roar@hungrybearstudio.com",
+    "email": "hello@richardhaines.dev",
     "phone": "(+0046) 730647544",
-    "website": "http://hungrybearstudio.com",
+    "website": "http://richardhaines.dev",
     "github": "https://github.com/molebox",
     "twitter": {
       "username": "studio_hungry",
@@ -86,14 +86,34 @@
       "Script Writing"
     ]
   }],
-  "projects": [{
-      "name": "serverless-graphql-potter",
-      "summary": "A project created with in tandem with a tutorial for FaunaDB. Uses data from Harry Potter API, stored in FaunaDB, accessed via serverless functions and Apollo",
+  "projects": [
+    {
+      "name": "devpack.dev",
+      "summary": "A SaaS app designed for developers to keep their personal branding consistent across multiple platforms. The user can manage their social profile from one hub, name, location, bio etc then push their profile to selected platforms such as Twitter, GitHub, CodePen, Twitch. Profile and cover images are handled via Cloudinary for correct sizing for each platform.",
       "stack": [
         "React",
         "Gatsby",
         "Netlify Functions",
-        "Apollo"
+        "Apollo",
+        "Theme-ui",
+        "OneGraph",
+        "GSAP 3",
+        "Serverless"
+      ],
+      "github": "",
+      "npm": "",
+      "live": "https://www.devpack.dev/"
+    },
+    {
+      "name": "serverless-graphql-potter",
+      "summary": "A project created in tandem with a tutorial for FaunaDB. Uses data from Harry Potter API, stored in FaunaDB, accessed via serverless functions and Apollo",
+      "stack": [
+        "React",
+        "Gatsby",
+        "Netlify Functions",
+        "Theme-ui",
+        "Apollo",
+        "Serverless"
       ],
       "github": "https://github.com/molebox/serverless-graphql-potter",
       "npm": "",
@@ -101,12 +121,13 @@
     },
     {
       "name": "richardhaines.dev",
-      "summary": "My personal portfolio website. I wanted to keep the styling minimal with a focus on using easy navigation to display my projects, resume and blog. All data is kept on the local filesystem.",
+      "summary": "My personal portfolio website. Minimalistic style with a focus on using easy navigation to display my projects, resume and blog. All data is kept on the local filesystem.",
       "stack": [
         "React",
         "Gatsby",
         "Theme-ui",
-        "MDX"
+        "MDX",
+        "GSAP 3"
       ],
       "github": "https://github.com/molebox/richardhaines.dev",
       "npm": "",
@@ -139,20 +160,6 @@
       "github": "https://github.com/molebox/gatsby-theme-pocket",
       "npm": "https://www.npmjs.com/package/gatsby-theme-pocket",
       "live": "https://gatsby-theme-pocket-example.netlify.com/articleIndex/"
-    },
-    {
-      "name": "gatsby-theme-vulcan",
-      "summary": "An fully functional ecommerce gatsby theme. Payments are handle via Snipcart. The idea behind this theme is to give the end user a fully functional ecommerce website with absolute minimal setup. They handle their inventory via the Snipcart dashboard and the site content via the Sanity.io dashboard. All styling can be overriden using theme-ui. (Still a work in progress)",
-      "stack": [
-        "React",
-        "Gatsby",
-        "Theme-ui",
-        "Snipcart",
-        "Sanity.io"
-      ],
-      "github": "https://github.com/molebox/gatsby-theme-ecommerce-vulcan",
-      "npm": "",
-      "live": "https://gatsby-theme-vulcan.netlify.com/"
     }
   ],
   "skills": [{
@@ -173,7 +180,8 @@
         "CSS-in-JS",
         "Emotion",
         "Theme-ui",
-        "Bootstrap"
+        "Bootstrap",
+        "Serverless Functions"
       ]
     },
     {
@@ -188,7 +196,6 @@
       "name": "CMS",
       "keywords": [
         "Sanity.io",
-        "Contenful",
         "Firebase"
       ]
     },
@@ -221,10 +228,16 @@
       ]
     }
   ],
-  "languages": [{
+  "languages": [
+    {
     "language": "English",
     "fluency": "Native speaker"
-  }],
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Fluent"
+      }
+  ],
   "interests": [{
     "name": "Wildlife",
     "keywords": [

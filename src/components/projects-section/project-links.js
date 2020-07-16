@@ -45,20 +45,22 @@ const ProjectLinks = ({ github, npm, live, name }) => {
           display: "flex"
         }}
       >
-        <a
-          sx={{
-            fontSize: ["0.8em", "1em", "1em"],
-            color: "text",
-            color: "secondaryDarker",
-            fontWeight: 600,
-            ":hover": {
-              color: "accent"
-            }
-          }}
-          href={github}
-        >
-          View&nbsp;{name}&nbsp;source
-        </a>
+        {github ? (
+          <a
+            sx={{
+              fontSize: ["0.8em", "1em", "1em"],
+              color: "text",
+              color: "secondaryDarker",
+              fontWeight: 600,
+              ":hover": {
+                color: "accent"
+              }
+            }}
+            href={github}
+          >
+            View&nbsp;{name}&nbsp;source
+          </a>
+        ) : null}
       </div>
       <div
         sx={{
