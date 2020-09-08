@@ -33,6 +33,20 @@ const ContactDetails = () => {
               color: "headerText"
             }
           }}
+          href="https://garden.richardhaines.dev/"
+        >
+          garden.richardhaines.dev
+        </a>
+      </li>
+      <li>
+        <a
+          sx={{
+            textDecoration: "none",
+            color: "accent",
+            ":hover": {
+              color: "headerText"
+            }
+          }}
           href="https://github.com/molebox"
         >
           github.com/molebox

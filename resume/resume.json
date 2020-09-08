@@ -5,7 +5,7 @@
     "picture": "",
     "email": "hello@richardhaines.dev",
     "phone": "(+0046) 730647544",
-    "website": "http://richardhaines.dev",
+    "website": "http://garden.richardhaines.dev",
     "github": "https://github.com/molebox",
     "twitter": {
       "username": "studio_hungry",
@@ -15,6 +15,18 @@
     "location": "Örnsköldsvik, Sweden"
   },
   "work": [{
+      "company": "Freelance ",
+      "position": "Technical Content Writer",
+      "startDate": "2019-11-01",
+      "present": "present",
+      "summary": "Freelance technical content writer. I create content in the format of tutorials and how to's for different tech companies, as well as self publishing on my blog and dev.to ",
+      "stack": [
+        "FaunaDB",
+        "Draftbit",
+        "Stackbit"
+      ]
+    },
+    {
       "company": "Clavister",
       "position": "Software Developer",
       "website": "http://clavister.com",
@@ -86,12 +98,36 @@
       "Script Writing"
     ]
   }],
-  "projects": [
+  "projects": [{
+      "name": "richardhaines.dev",
+      "summary": "My personal portfolio website. Minimalistic style with a focus on using easy navigation to display my projects, resume and blog. All data is kept on the local filesystem.",
+      "stack": [
+        "Gatsby",
+        "Theme-ui",
+        "MDX",
+        "GSAP 3"
+      ],
+      "github": "https://github.com/molebox/richardhaines.dev",
+      "npm": "",
+      "live": "https://richardhaines.dev/"
+    },
+    {
+      "name": "garden.richardhaines.dev",
+      "summary": "A subdomain for my digital garden, a fun space where I can experiment and write my thoughts, ideas, tutorials and posts.",
+      "stack": [
+        "NextJS",
+        "Chakra-UI",
+        "MDX",
+        "GSAP 3"
+      ],
+      "github": "https://github.com/molebox/rich-haines-digital-garden",
+      "npm": "",
+      "live": "https://garden.richardhaines.dev/"
+    },
     {
       "name": "devpack.dev",
-      "summary": "A SaaS app designed for developers to keep their personal branding consistent across multiple platforms. The user can manage their social profile from one hub, name, location, bio etc then push their profile to selected platforms such as Twitter, GitHub, CodePen, Twitch. Profile and cover images are handled via Cloudinary for correct sizing for each platform.",
+      "summary": "An app designed for developers to keep their personal branding consistent across multiple platforms. The user can manage their social profile from one hub, name, location, bio etc then push their profile to selected platforms such as Twitter, GitHub, CodePen, Twitch. Profile and cover images are handled via Cloudinary for correct sizing for each platform.",
       "stack": [
-        "React",
         "Gatsby",
         "Netlify Functions",
         "Apollo",
@@ -108,7 +144,6 @@
       "name": "serverless-graphql-potter",
       "summary": "A project created in tandem with a tutorial for FaunaDB. Uses data from Harry Potter API, stored in FaunaDB, accessed via serverless functions and Apollo",
       "stack": [
-        "React",
         "Gatsby",
         "Netlify Functions",
         "Theme-ui",
@@ -118,48 +153,6 @@
       "github": "https://github.com/molebox/serverless-graphql-potter",
       "npm": "",
       "live": "https://serverless-graphql-potter.netlify.app/"
-    },
-    {
-      "name": "richardhaines.dev",
-      "summary": "My personal portfolio website. Minimalistic style with a focus on using easy navigation to display my projects, resume and blog. All data is kept on the local filesystem.",
-      "stack": [
-        "React",
-        "Gatsby",
-        "Theme-ui",
-        "MDX",
-        "GSAP 3"
-      ],
-      "github": "https://github.com/molebox/richardhaines.dev",
-      "npm": "",
-      "live": "https://richardhaines.dev/"
-    },
-    {
-      "name": "justask.dev",
-      "summary": "The motivation behind this website is to provide an easy way for developers new and old to search for those annoying things we all forget. I have been adding snippets as and when i find a solution to a problem i think others might be interested in.",
-      "stack": [
-        "React",
-        "Gatsby",
-        "Theme-ui",
-        "Emotion",
-        "MDX"
-      ],
-      "github": "https://github.com/molebox/justask.dev",
-      "npm": "",
-      "live": "https://justask.dev/"
-    },
-    {
-      "name": "gatsby-theme-pocket",
-      "summary": "The idea behind this theme is to add a curated list of articles of interest to your website. These can be for your personal site where you want to keep a list of articles you read, your business site where you want to show your visitors articles that relate to your market or just a place to save stuff that interests you from the internet. You need to have the pocket app installed on your mobile or the browser extension, it is from there that you save your articles.",
-      "stack": [
-        "React",
-        "Gatsby",
-        "Theme-ui",
-        "Emotion",
-        "Pocket API"
-      ],
-      "github": "https://github.com/molebox/gatsby-theme-pocket",
-      "npm": "https://www.npmjs.com/package/gatsby-theme-pocket",
-      "live": "https://gatsby-theme-pocket-example.netlify.com/articleIndex/"
     }
   ],
   "skills": [{
@@ -167,9 +160,7 @@
       "keywords": [
         "JavaScript",
         "TypeScript",
-        "C#",
-        "GraphQL",
-        "MDX"
+        "GraphQL"
       ]
     },
     {
@@ -180,13 +171,16 @@
         "CSS-in-JS",
         "Emotion",
         "Theme-ui",
-        "Bootstrap",
-        "Serverless Functions"
+        "Chakra-UI",
+        "Serverless Functions",
+        "MDX",
+        "Figma"
       ]
     },
     {
       "name": "Web Frameworks",
       "keywords": [
+        "NextJS",
         "Gatsby",
         "React",
         "Redux"
@@ -228,15 +222,14 @@
       ]
     }
   ],
-  "languages": [
-    {
-    "language": "English",
-    "fluency": "Native speaker"
+  "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
     },
     {
       "language": "Swedish",
       "fluency": "Fluent"
-      }
+    }
   ],
   "interests": [{
     "name": "Wildlife",

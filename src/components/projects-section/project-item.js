@@ -6,7 +6,7 @@ const ProjectItem = ({ children }) => {
     <div
       sx={{
         display: "grid",
-        gridTemplateColumns: "minmax(auto, 150px) 1fr",
+        gridTemplateColumns: "minmax(auto, 250px) 1fr",
         gridTemplateAreas: "title description",
         gap: "1em"
       }}

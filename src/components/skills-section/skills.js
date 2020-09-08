@@ -13,7 +13,10 @@ const Skills = ({ skills }) => {
           color: "text",
           fontFamily: "body",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(auto, 300px))"
+          gridTemplateColumns: "repeat(auto-fit, minmax(auto, 250px))",
+          gridAutoRows: "auto",
+          gap: "1.5em",
+          width: "100%"
         }}
       >
         {skills.map((skill, index) => (
