@@ -23,7 +23,7 @@
       "stack": [
         "FaunaDB",
         "Draftbit",
-        "Stackbit"
+        "Take Shape"
       ]
     },
     {
@@ -100,29 +100,18 @@
   }],
   "projects": [{
       "name": "richardhaines.dev",
-      "summary": "My personal portfolio website. Minimalistic style with a focus on using easy navigation to display my projects, resume and blog. All data is kept on the local filesystem.",
+      "summary": "Digital Garden where I write about exploring new technologies, tutorials and helpful snippets.",
       "stack": [
         "Gatsby",
-        "Theme-ui",
-        "MDX",
-        "GSAP 3"
-      ],
-      "github": "https://github.com/molebox/richardhaines.dev",
-      "npm": "",
-      "live": "https://richardhaines.dev/"
-    },
-    {
-      "name": "garden.richardhaines.dev",
-      "summary": "A subdomain for my digital garden, a fun space where I can experiment and write my thoughts, ideas, tutorials and posts.",
-      "stack": [
-        "NextJS",
         "Chakra-UI",
         "MDX",
-        "GSAP 3"
+        "GSAP 3",
+        "ThreeJS",
+        "react-three-fiber"
       ],
-      "github": "https://github.com/molebox/rich-haines-digital-garden",
+      "github": "https://github.com/molebox/minimal-digital-garden-gatsby",
       "npm": "",
-      "live": "https://garden.richardhaines.dev/"
+      "live": "https://richardhaines.dev/"
     },
     {
       "name": "devpack.dev",
@@ -160,7 +149,9 @@
       "keywords": [
         "JavaScript",
         "TypeScript",
-        "GraphQL"
+        "GraphQL",
+        "ThreeJS",
+        "react-three-fiber"
       ]
     },
     {
