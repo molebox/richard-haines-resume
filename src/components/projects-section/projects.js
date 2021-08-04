@@ -16,7 +16,7 @@ const Projects = ({ projects }) => {
         gap: "1em"
       }}
     >
-      <SectionHeader>Projects</SectionHeader>
+      <SectionHeader>Selection of projects</SectionHeader>
       {projects.map((project, index) => (
         <ProjectItem key={project.name + index}>
           <LeftColumn>

@@ -5,7 +5,7 @@
     "picture": "",
     "email": "hello@richardhaines.dev",
     "phone": "(+0046) 730647544",
-    "website": "http://garden.richardhaines.dev",
+    "website": "http://richardhaines.dev",
     "github": "https://github.com/molebox",
     "twitter": {
       "username": "studio_hungry",
@@ -14,7 +14,20 @@
     "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": "Örnsköldsvik, Sweden"
   },
-  "work": [{
+  "work": [
+    {
+      "company": "Prisma ",
+      "position": "Technical Writer",
+      "startDate": "2021-03-15",
+      "present": "present",
+      "summary": "Technical writer on the docs team. Simplifying complex database concepts to be easily understood by the reader. Writing guides, concepts and code examples of how to use the product in a way that resonates with the reader according to their knwoledge level. I also contribute to the docs frontend, creating both interactive components for the docs pages and components that improve the site as a whole. ",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Styled Components"
+      ]
+    },
+    {
       "company": "Freelance ",
       "position": "Technical Content Writer",
       "startDate": "2019-11-01",
@@ -23,7 +36,8 @@
       "stack": [
         "FaunaDB",
         "Draftbit",
-        "Take Shape"
+        "Take Shape",
+        "Snipcart"
       ]
     },
     {
@@ -31,7 +45,7 @@
       "position": "Software Developer",
       "website": "http://clavister.com",
       "startDate": "2018-05-02",
-      "present": "present",
+      "endDate": "2021-03-13",
       "summary": "Primarily focused on the frontend developing enterprise network security management system for worldwide customers. Implement new features, scoping requirements, design collaboration with the UX and marketing teams. Scrum master driving development from scoping through to implementation. Accomplishments include: Introducing React Hooks to the codebase and initiating refactoring of class components. Instigating accessibility focus Implementing the company's current rollout feature – Cyber Security Scorecard with custom dashboards. ",
       "stack": [
         "React",
@@ -71,63 +85,71 @@
       ]
     }
   ],
-  "education": [{
-    "institution": "Yrkesakademin",
-    "area": "Systemutveklare (Software Developer)",
-    "qualification": "Systemutveklare inom .NET (Software Developer within .NET)",
-    "startDate": "2016-08-01",
-    "endDate": "2018-05-01",
-    "courses": [
-      "C# .NET",
-      "Database Architecture",
-      "SQL",
-      "OOP",
-      "Web Publication and Development",
-      "Agile"
-    ]
-  }, {
-    "institution": "London Metropolitan University",
-    "area": "Film and Broadcast Production",
-    "qualification": "Bachelor of Arts (Hons)",
-    "startDate": "2005-08-01",
-    "endDate": "2009-05-01",
-    "courses": [
-      "TV Camera",
-      "Radio Production",
-      "Marketing and Advertising",
-      "Script Writing"
-    ]
-  }],
-  "projects": [{
+  "education": [
+    {
+      "institution": "Yrkesakademin",
+      "area": "Systemutveklare (Software Developer)",
+      "qualification": "Systemutveklare inom .NET (Software Developer within .NET)",
+      "startDate": "2016-08-01",
+      "endDate": "2018-05-01",
+      "courses": [
+        "C# .NET",
+        "Database Architecture",
+        "SQL",
+        "OOP",
+        "Web Publication and Development",
+        "Agile"
+      ]
+    },
+    {
+      "institution": "London Metropolitan University",
+      "area": "Film and Broadcast Production",
+      "qualification": "Bachelor of Arts (Hons). Majored in script writing.",
+      "startDate": "2005-08-01",
+      "endDate": "2009-05-01",
+      "courses": [
+        "TV Camera",
+        "Radio Production",
+        "Marketing and Advertising",
+        "Script Writing"
+      ]
+    }
+  ],
+  "projects": [
+    {
       "name": "richardhaines.dev",
-      "summary": "Digital Garden where I write about exploring new technologies, tutorials and helpful snippets.",
+      "summary": "Blog where I write about exploring new technologies, tutorials, helpful snippets and short stories",
       "stack": [
+        "Jamstack",
         "Gatsby",
+        "Nextjs",
         "Chakra-UI",
         "MDX",
-        "GSAP 3",
+        "GSAP",
         "ThreeJS",
-        "react-three-fiber"
+        "react-three-fiber",
+        "Prisma",
+        "Node"
       ],
       "github": "https://github.com/molebox/minimal-digital-garden-gatsby",
       "npm": "",
       "live": "https://richardhaines.dev/"
     },
     {
-      "name": "devpack.dev",
-      "summary": "An app designed for developers to keep their personal branding consistent across multiple platforms. The user can manage their social profile from one hub, name, location, bio etc then push their profile to selected platforms such as Twitter, GitHub, CodePen, Twitch. Profile and cover images are handled via Cloudinary for correct sizing for each platform.",
+      "name": "gatsby-starter-sell-stuff",
+      "summary": "An ecommerce Gatsby starter built with Stripe, Sanity, Theme-ui and Netlify.",
       "stack": [
         "Gatsby",
-        "Netlify Functions",
-        "Apollo",
+        "Serverless functions",
+        "Stripe",
+        "Sanity",
         "Theme-ui",
-        "OneGraph",
-        "GSAP 3",
+        "GSAP",
         "Serverless"
       ],
-      "github": "",
+      "github": "https://github.com/molebox/gatsby-starter-sell-stuff",
       "npm": "",
-      "live": "https://www.devpack.dev/"
+      "live": "https://gatsby-starter-sell-stuff.netlify.app/"
     },
     {
       "name": "serverless-graphql-potter",
@@ -144,7 +166,8 @@
       "live": "https://serverless-graphql-potter.netlify.app/"
     }
   ],
-  "skills": [{
+  "skills": [
+    {
       "name": "Languages and Scripts",
       "keywords": [
         "JavaScript",
@@ -162,8 +185,8 @@
         "CSS-in-JS",
         "Emotion",
         "Theme-ui",
-        "Chakra-UI",
-        "Serverless Functions",
+        "Chakra-ui",
+        "Serverless functions",
         "MDX",
         "Figma"
       ]
@@ -174,7 +197,7 @@
         "NextJS",
         "Gatsby",
         "React",
-        "Redux"
+        "Svelte"
       ]
     },
     {
@@ -199,6 +222,7 @@
     {
       "name": "Database and ORM",
       "keywords": [
+        "Prisma",
         "SQL Server",
         "FaunaDB"
       ]
@@ -213,7 +237,8 @@
       ]
     }
   ],
-  "languages": [{
+  "languages": [
+    {
       "language": "English",
       "fluency": "Native speaker"
     },
@@ -222,15 +247,19 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Erlich Bachman",
-    "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-  }]
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
 }
